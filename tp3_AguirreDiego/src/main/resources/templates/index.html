@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" id="fondo">
 	<head>
 		<meta charset="UTF-8">
 		<title>UNJu Virtual</title>
+		<link rel="stylesheet" href="/css/estilos.css">
 	</head>
 	
 	<body>
-		<header>
-			<h1>PROGRAMACIÓN VISUAL 2024</h1>
+		<header id="header">
+			<h1 class="h1">PROGRAMACIÓN VISUAL 2024</h1>
 		</header>
 		
-		<nav>
+		<nav class="nav">
 			<ul>
-				<li><a href="index.htmnl">inicio</a></li>
+				<li><a href="/index">inicio</a></li>
 				<li><a href="#">Horario de clases teoricas y practicas</a></li>
 				<li><a href="#">Profesores a Cargo de la Materia</a></li>
+				<li><a href="/formulario">Formulario</a></li>
 			</ul>
 		</nav>
-		
-		<main>
-			<section id ="inicio">
-				<h2>!!!BIENVENIDOS A PROGRAMACIÓN VISUAL!!!</h2>
-				<h3>1er Cuatrimestre</h3>
-				<p>Materia 2do año de la carrera de Analista Programador Universitario</p>
+		<div class="container">
+		<main class="main">
+			<section id ="inicio" class="seccion">
+				<h2 class="h2">!!!BIENVENIDOS A PROGRAMACIÓN VISUAL!!!</h2>
+				<h3 class="h3">1er Cuatrimestre</h3>
+				<p class="p">Materia 2do año de la carrera de Analista Programador Universitario</p>
 			</section>
 			
-			<section id ="material">
-				<h2>Material de estudio</h2>
-				<h3>Semanas transcurridas hasta el dia de la fecha</h3>
-				<p>En esta sección el alumno encontrara clases grabadas por los profesores a cargo, junto con material de lectura en formato pdf</p>
+			<section id ="material" class="seccion">
+				<h2 class="h2">Material de estudio</h2>
+				<h3 class="h3">Semanas transcurridas hasta el dia de la fecha</h3>
+				<p class="p">En esta sección el alumno encontrara clases grabadas por los profesores a cargo, junto con material de lectura en formato pdf</p>
 					<ol>
 						<li><a href="#">1er Semana</a></li>
 						<li><a href="#">2da Semana</a></li>
@@ -37,11 +39,11 @@
 					</ol>
 			</section>
 			
-			<section id="clasesconsultas">
-				<h2>Clases de consultas</h2>
-				<h3>Profesores y Horarios</h3>
-				<p>En esta tabla se encuentran los días y horarios para poder asistir a clases de consultas, donde el alumno podra despejar dudas sobre algún tema de estudio</p>
-				<table border="1">
+			<section id="clasesconsultas" class="seccion">
+				<h2 class="h2">Clases de consultas</h2>
+				<h3 class="h3">Profesores y Horarios</h3>
+				<p class="p">En esta tabla se encuentran los días y horarios para poder asistir a clases de consultas, donde el alumno podra despejar dudas sobre algún tema de estudio</p>
+				<table class="table">
 					<tr>
 						<th>Profesores</th>
 						<th>Horarios</th>
@@ -70,19 +72,19 @@
 			</section>
 		</main>
 		
-		<aside>
-			<h3>Avisos y Programa de la Materia</h3>
-			<p>En esta sección el alumno encontrara avisos importantes de los profesores antes cualquier imprevisto surgido y ademas podra descargar el programa de la materia para un mejor seguimiento de la misma</p>
+		<aside class="contacto">
+			<h3 class="h3">Avisos y Programa de la Materia</h3>
+			<p class="p">En esta sección el alumno encontrara avisos importantes de los profesores antes cualquier imprevisto surgido y ademas podra descargar el programa de la materia para un mejor seguimiento de la misma</p>
 				<ul>
 					<li><a href="#">Avisos</a></li>
 					<li><a href="#">Programa de la Materia 2024</a></li>
 				</ul>
-				<img alt="imagenavisoimportante" src="../static/images/important.jpg">
+				<img alt="imagenavisoimportante" src="/images/important.jpg">
 		</aside>
-		
-		<footer>
+		</div>
+		<footer id="footer">
 			<h4>Contacto</h4>
-			<p>Email: programacionvisual@unjuvirtual.com</p>
+			<p class="p">Email: programacionvisual@unjuvirtual.com</p>
 			<h4>Redes sociales</h4>
 				<ul>
 					<li><a href="#">Facebook</a></li>

@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" id="fondo">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Formulario</title>
+<link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
-	<header>
-		<h1>PROGRAMACIÓN VISUAL 2024</h1>
+	<header id="header">
+		<h1 class="h1">Formulario de Clientes</h1>
 	</header>
 	
-	<nav>
-			<ul>
-				<li><a href="index.htmnl">inicio</a></li>
-				<li><a href="#">Horario de clases teoricas y practicas</a></li>
-				<li><a href="#">Profesores a Cargo de la Materia</a></li>
-			</ul>
-		</nav>
+	<nav class="nav">
+		<ul>
+			<li><a href="/index">inicio</a></li>
+			<li><a href="#">Horario de clases teoricas y practicas</a></li>
+			<li><a href="#">Profesores a Cargo de la Materia</a></li>
+		</ul>
+	</nav>
 	
-	<main>
-		<h1>Formulario de Datos</h1>
+	<main class="main">
+		<h1>Datos del Cliente</h1>
 		<form action="">
 			<label for="dni">DNI:</label>
 			<input type="number" id="dni" required placeholder="Ingrese el DNI" name="dni"></input><br>
@@ -28,7 +29,7 @@
 			<input type="text" id="apellidos" required placeholder="Ingrese su apellido" name="apellidos"></input><br>
 			<label for="fechaNacimiento">Fecha de Nacimiento:</label>
 			<input type="date" id="fechaNacimiento" required placeholder="Ingrese su fecha de nacimiento" name="fechaNacimiento"></input><br>
-			<div>
+			<divclass="container">
 				<label for="genero">Genero:</label><br>
 				<label for="genero">Maculino:</label>
 				<input type="radio" id="genero" value="Masculino" name="genero"></input><br>
@@ -52,8 +53,8 @@
 			<label for="celular">Telefono celular:</label>
 			<input type="number" id="celular"  name ="celular" required placeholder="Ingrese su número de celular"></input><br>
 			<label>Categorias de interes:</label>
-			<div>
-				<label for="intereses">Deportes:</label>
+			<divclass="container">
+				<label for="intereses">Deportes:</label><br>
 				<input type="checkbox" id="intereses" name="intereses"><br>
 				<label for="intereses">Peliculas:</label>
 				<input type="checkbox" id="intereses" name="intereses" ><br>
@@ -77,5 +78,16 @@
 			<input type="submit" value="Guardar">
 		</form>
 	</main>
+	
+	<footer id="footer">
+			<h4>Contacto</h4>
+			<p class="p">Email: programacionvisual@unjuvirtual.com</p>
+			<h4>Redes sociales</h4>
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">Canal de Youtube</a></li>
+				</ul>
+	</footer>
 </body>
 </html>
